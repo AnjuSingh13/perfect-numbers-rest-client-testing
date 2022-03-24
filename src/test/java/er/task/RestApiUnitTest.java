@@ -46,7 +46,7 @@ public class RestApiUnitTest extends JerseyTest {
 	
 	@Test
 	public void testRangeHasPerfectNumbers() {
-		Response response = target("/perfectNumbersFromRange/1/1000").request().get();
+		Response response = target("/perfectNumbersFromRange/1/10000").request().get();
 		assertEquals("should return status 200", 200, response.getStatus());
 		List responseValue = response.readEntity(List.class);
 		assertEquals(4, responseValue.size());

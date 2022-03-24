@@ -1,6 +1,5 @@
 # perfect-numbers-rest-client
 
-# PerfectNumberAPIs
 
 This is a Java program to check if a number is perfect or not. It will also return all perfect numbers in a given range of numbers.
 
